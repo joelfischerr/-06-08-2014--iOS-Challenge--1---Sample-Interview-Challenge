@@ -16,6 +16,8 @@ The password is at least 8 characters in length
 Then navigate to another page and display an image and a button to return to the previous screen. When tapped the image should show a message saying “Hello World”. If the user returns to the previous screen all information in the form should be cleared.
 For bonus points demonstrate an understanding of how you would test your code.
 
+Screenshots of my implementation.
+
 ![Screenshot 1](/iOS Simulator Screen shot 07 Aug 2014 16.21.31.png)
 
 ![Screenshot 2](/iOS Simulator Screen shot 07 Aug 2014 16.21.40.png)
