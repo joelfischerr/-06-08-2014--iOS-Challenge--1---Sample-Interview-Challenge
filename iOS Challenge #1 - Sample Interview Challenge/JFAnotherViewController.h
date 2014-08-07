@@ -1,5 +1,5 @@
 //
-//  JFViewController.h
+//  JFAnotherViewController.h
 //  iOS Challenge #1 - Sample Interview Challenge
 //
 //  Created by Joel Fischer on 07/08/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JFViewController : UIViewController <UITextFieldDelegate>
+@interface JFAnotherViewController : UIViewController <UIGestureRecognizerDelegate>
 
 @end

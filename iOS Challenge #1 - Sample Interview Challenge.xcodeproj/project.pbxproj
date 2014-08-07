@@ -21,6 +21,8 @@
 		4A09478E1993B3E80060D75B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0947701993B3E80060D75B /* UIKit.framework */; };
 		4A0947961993B3E80060D75B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A0947941993B3E80060D75B /* InfoPlist.strings */; };
 		4A0947981993B3E80060D75B /* iOS_Challenge__1___Sample_Interview_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0947971993B3E80060D75B /* iOS_Challenge__1___Sample_Interview_ChallengeTests.m */; };
+		4A0947A31993B4E50060D75B /* JFAnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0947A21993B4E50060D75B /* JFAnotherViewController.m */; };
+		4A0947A61993B7B40060D75B /* NSString+JFNSStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0947A51993B7B40060D75B /* NSString+JFNSStringTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		4A0947931993B3E80060D75B /* iOS Challenge #1 - Sample Interview ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Challenge #1 - Sample Interview ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		4A0947951993B3E80060D75B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A0947971993B3E80060D75B /* iOS_Challenge__1___Sample_Interview_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS_Challenge__1___Sample_Interview_ChallengeTests.m"; sourceTree = "<group>"; };
+		4A0947A11993B4E50060D75B /* JFAnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFAnotherViewController.h; sourceTree = "<group>"; };
+		4A0947A21993B4E50060D75B /* JFAnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFAnotherViewController.m; sourceTree = "<group>"; };
+		4A0947A41993B7B40060D75B /* NSString+JFNSStringTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JFNSStringTest.h"; sourceTree = "<group>"; };
+		4A0947A51993B7B40060D75B /* NSString+JFNSStringTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JFNSStringTest.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +121,12 @@
 				4A09477B1993B3E80060D75B /* JFAppDelegate.h */,
 				4A09477C1993B3E80060D75B /* JFAppDelegate.m */,
 				4A09477E1993B3E80060D75B /* Main.storyboard */,
+				4A0947A11993B4E50060D75B /* JFAnotherViewController.h */,
+				4A0947A21993B4E50060D75B /* JFAnotherViewController.m */,
 				4A0947811993B3E80060D75B /* JFViewController.h */,
 				4A0947821993B3E80060D75B /* JFViewController.m */,
+				4A0947A41993B7B40060D75B /* NSString+JFNSStringTest.h */,
+				4A0947A51993B7B40060D75B /* NSString+JFNSStringTest.m */,
 				4A0947841993B3E80060D75B /* Images.xcassets */,
 				4A0947731993B3E80060D75B /* Supporting Files */,
 			);
@@ -250,7 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A0947A31993B4E50060D75B /* JFAnotherViewController.m in Sources */,
 				4A09477D1993B3E80060D75B /* JFAppDelegate.m in Sources */,
+				4A0947A61993B7B40060D75B /* NSString+JFNSStringTest.m in Sources */,
 				4A0947831993B3E80060D75B /* JFViewController.m in Sources */,
 				4A0947791993B3E80060D75B /* main.m in Sources */,
 			);
