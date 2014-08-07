@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A09476D1993B3E80060D75B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A09476C1993B3E80060D75B /* Foundation.framework */; };
+		4A09476F1993B3E80060D75B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A09476E1993B3E80060D75B /* CoreGraphics.framework */; };
+		4A0947711993B3E80060D75B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0947701993B3E80060D75B /* UIKit.framework */; };
+		4A0947771993B3E80060D75B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A0947751993B3E80060D75B /* InfoPlist.strings */; };
+		4A0947791993B3E80060D75B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0947781993B3E80060D75B /* main.m */; };
+		4A09477D1993B3E80060D75B /* JFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09477C1993B3E80060D75B /* JFAppDelegate.m */; };
+		4A0947801993B3E80060D75B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A09477E1993B3E80060D75B /* Main.storyboard */; };
+		4A0947831993B3E80060D75B /* JFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0947821993B3E80060D75B /* JFViewController.m */; };
+		4A0947851993B3E80060D75B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0947841993B3E80060D75B /* Images.xcassets */; };
+		4A09478C1993B3E80060D75B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A09478B1993B3E80060D75B /* XCTest.framework */; };
+		4A09478D1993B3E80060D75B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A09476C1993B3E80060D75B /* Foundation.framework */; };
+		4A09478E1993B3E80060D75B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0947701993B3E80060D75B /* UIKit.framework */; };
+		4A0947961993B3E80060D75B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A0947941993B3E80060D75B /* InfoPlist.strings */; };
+		4A0947981993B3E80060D75B /* iOS_Challenge__1___Sample_Interview_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0947971993B3E80060D75B /* iOS_Challenge__1___Sample_Interview_ChallengeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A09478F1993B3E80060D75B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0947611993B3E80060D75B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0947681993B3E80060D75B;
+			remoteInfo = "iOS Challenge #1 - Sample Interview Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A0947691993B3E80060D75B /* iOS Challenge #1 - Sample Interview Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Challenge #1 - Sample Interview Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A09476C1993B3E80060D75B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A09476E1993B3E80060D75B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A0947701993B3E80060D75B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A0947741993B3E80060D75B /* iOS Challenge #1 - Sample Interview Challenge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Challenge #1 - Sample Interview Challenge-Info.plist"; sourceTree = "<group>"; };
+		4A0947761993B3E80060D75B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A0947781993B3E80060D75B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A09477A1993B3E80060D75B /* iOS Challenge #1 - Sample Interview Challenge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Challenge #1 - Sample Interview Challenge-Prefix.pch"; sourceTree = "<group>"; };
+		4A09477B1993B3E80060D75B /* JFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFAppDelegate.h; sourceTree = "<group>"; };
+		4A09477C1993B3E80060D75B /* JFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFAppDelegate.m; sourceTree = "<group>"; };
+		4A09477F1993B3E80060D75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A0947811993B3E80060D75B /* JFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFViewController.h; sourceTree = "<group>"; };
+		4A0947821993B3E80060D75B /* JFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFViewController.m; sourceTree = "<group>"; };
+		4A0947841993B3E80060D75B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4A09478A1993B3E80060D75B /* iOS Challenge #1 - Sample Interview ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Challenge #1 - Sample Interview ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A09478B1993B3E80060D75B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4A0947931993B3E80060D75B /* iOS Challenge #1 - Sample Interview ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Challenge #1 - Sample Interview ChallengeTests-Info.plist"; sourceTree = "<group>"; };
+		4A0947951993B3E80060D75B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A0947971993B3E80060D75B /* iOS_Challenge__1___Sample_Interview_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS_Challenge__1___Sample_Interview_ChallengeTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A0947661993B3E80060D75B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A09476F1993B3E80060D75B /* CoreGraphics.framework in Frameworks */,
+				4A0947711993B3E80060D75B /* UIKit.framework in Frameworks */,
+				4A09476D1993B3E80060D75B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0947871993B3E80060D75B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A09478C1993B3E80060D75B /* XCTest.framework in Frameworks */,
+				4A09478E1993B3E80060D75B /* UIKit.framework in Frameworks */,
+				4A09478D1993B3E80060D75B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0947601993B3E80060D75B = {
+			isa = PBXGroup;
+			children = (
+				4A0947721993B3E80060D75B /* iOS Challenge #1 - Sample Interview Challenge */,
+				4A0947911993B3E80060D75B /* iOS Challenge #1 - Sample Interview ChallengeTests */,
+				4A09476B1993B3E80060D75B /* Frameworks */,
+				4A09476A1993B3E80060D75B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A09476A1993B3E80060D75B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A0947691993B3E80060D75B /* iOS Challenge #1 - Sample Interview Challenge.app */,
+				4A09478A1993B3E80060D75B /* iOS Challenge #1 - Sample Interview ChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A09476B1993B3E80060D75B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A09476C1993B3E80060D75B /* Foundation.framework */,
+				4A09476E1993B3E80060D75B /* CoreGraphics.framework */,
+				4A0947701993B3E80060D75B /* UIKit.framework */,
+				4A09478B1993B3E80060D75B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A0947721993B3E80060D75B /* iOS Challenge #1 - Sample Interview Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				4A09477B1993B3E80060D75B /* JFAppDelegate.h */,
+				4A09477C1993B3E80060D75B /* JFAppDelegate.m */,
+				4A09477E1993B3E80060D75B /* Main.storyboard */,
+				4A0947811993B3E80060D75B /* JFViewController.h */,
+				4A0947821993B3E80060D75B /* JFViewController.m */,
+				4A0947841993B3E80060D75B /* Images.xcassets */,
+				4A0947731993B3E80060D75B /* Supporting Files */,
+			);
+			path = "iOS Challenge #1 - Sample Interview Challenge";
+			sourceTree = "<group>";
+		};
+		4A0947731993B3E80060D75B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A0947741993B3E80060D75B /* iOS Challenge #1 - Sample Interview Challenge-Info.plist */,
+				4A0947751993B3E80060D75B /* InfoPlist.strings */,
+				4A0947781993B3E80060D75B /* main.m */,
+				4A09477A1993B3E80060D75B /* iOS Challenge #1 - Sample Interview Challenge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A0947911993B3E80060D75B /* iOS Challenge #1 - Sample Interview ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0947971993B3E80060D75B /* iOS_Challenge__1___Sample_Interview_ChallengeTests.m */,
+				4A0947921993B3E80060D75B /* Supporting Files */,
+			);
+			path = "iOS Challenge #1 - Sample Interview ChallengeTests";
+			sourceTree = "<group>";
+		};
+		4A0947921993B3E80060D75B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A0947931993B3E80060D75B /* iOS Challenge #1 - Sample Interview ChallengeTests-Info.plist */,
+				4A0947941993B3E80060D75B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A0947681993B3E80060D75B /* iOS Challenge #1 - Sample Interview Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A09479B1993B3E80060D75B /* Build configuration list for PBXNativeTarget "iOS Challenge #1 - Sample Interview Challenge" */;
+			buildPhases = (
+				4A0947651993B3E80060D75B /* Sources */,
+				4A0947661993B3E80060D75B /* Frameworks */,
+				4A0947671993B3E80060D75B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Challenge #1 - Sample Interview Challenge";
+			productName = "iOS Challenge #1 - Sample Interview Challenge";
+			productReference = 4A0947691993B3E80060D75B /* iOS Challenge #1 - Sample Interview Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A0947891993B3E80060D75B /* iOS Challenge #1 - Sample Interview ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A09479E1993B3E80060D75B /* Build configuration list for PBXNativeTarget "iOS Challenge #1 - Sample Interview ChallengeTests" */;
+			buildPhases = (
+				4A0947861993B3E80060D75B /* Sources */,
+				4A0947871993B3E80060D75B /* Frameworks */,
+				4A0947881993B3E80060D75B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0947901993B3E80060D75B /* PBXTargetDependency */,
+			);
+			name = "iOS Challenge #1 - Sample Interview ChallengeTests";
+			productName = "iOS Challenge #1 - Sample Interview ChallengeTests";
+			productReference = 4A09478A1993B3E80060D75B /* iOS Challenge #1 - Sample Interview ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A0947611993B3E80060D75B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Joel Fischer";
+				TargetAttributes = {
+					4A0947891993B3E80060D75B = {
+						TestTargetID = 4A0947681993B3E80060D75B;
+					};
+				};
+			};
+			buildConfigurationList = 4A0947641993B3E80060D75B /* Build configuration list for PBXProject "iOS Challenge #1 - Sample Interview Challenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A0947601993B3E80060D75B;
+			productRefGroup = 4A09476A1993B3E80060D75B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A0947681993B3E80060D75B /* iOS Challenge #1 - Sample Interview Challenge */,
+				4A0947891993B3E80060D75B /* iOS Challenge #1 - Sample Interview ChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A0947671993B3E80060D75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0947851993B3E80060D75B /* Images.xcassets in Resources */,
+				4A0947771993B3E80060D75B /* InfoPlist.strings in Resources */,
+				4A0947801993B3E80060D75B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0947881993B3E80060D75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0947961993B3E80060D75B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A0947651993B3E80060D75B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A09477D1993B3E80060D75B /* JFAppDelegate.m in Sources */,
+				4A0947831993B3E80060D75B /* JFViewController.m in Sources */,
+				4A0947791993B3E80060D75B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0947861993B3E80060D75B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0947981993B3E80060D75B /* iOS_Challenge__1___Sample_Interview_ChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A0947901993B3E80060D75B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0947681993B3E80060D75B /* iOS Challenge #1 - Sample Interview Challenge */;
+			targetProxy = 4A09478F1993B3E80060D75B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A0947751993B3E80060D75B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0947761993B3E80060D75B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A09477E1993B3E80060D75B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A09477F1993B3E80060D75B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A0947941993B3E80060D75B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0947951993B3E80060D75B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A0947991993B3E80060D75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A09479A1993B3E80060D75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A09479C1993B3E80060D75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Challenge #1 - Sample Interview Challenge/iOS Challenge #1 - Sample Interview Challenge-Prefix.pch";
+				INFOPLIST_FILE = "iOS Challenge #1 - Sample Interview Challenge/iOS Challenge #1 - Sample Interview Challenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A09479D1993B3E80060D75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Challenge #1 - Sample Interview Challenge/iOS Challenge #1 - Sample Interview Challenge-Prefix.pch";
+				INFOPLIST_FILE = "iOS Challenge #1 - Sample Interview Challenge/iOS Challenge #1 - Sample Interview Challenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4A09479F1993B3E80060D75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS Challenge #1 - Sample Interview Challenge.app/iOS Challenge #1 - Sample Interview Challenge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Challenge #1 - Sample Interview Challenge/iOS Challenge #1 - Sample Interview Challenge-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS Challenge #1 - Sample Interview ChallengeTests/iOS Challenge #1 - Sample Interview ChallengeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4A0947A01993B3E80060D75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS Challenge #1 - Sample Interview Challenge.app/iOS Challenge #1 - Sample Interview Challenge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Challenge #1 - Sample Interview Challenge/iOS Challenge #1 - Sample Interview Challenge-Prefix.pch";
+				INFOPLIST_FILE = "iOS Challenge #1 - Sample Interview ChallengeTests/iOS Challenge #1 - Sample Interview ChallengeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A0947641993B3E80060D75B /* Build configuration list for PBXProject "iOS Challenge #1 - Sample Interview Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0947991993B3E80060D75B /* Debug */,
+				4A09479A1993B3E80060D75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A09479B1993B3E80060D75B /* Build configuration list for PBXNativeTarget "iOS Challenge #1 - Sample Interview Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A09479C1993B3E80060D75B /* Debug */,
+				4A09479D1993B3E80060D75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A09479E1993B3E80060D75B /* Build configuration list for PBXNativeTarget "iOS Challenge #1 - Sample Interview ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A09479F1993B3E80060D75B /* Debug */,
+				4A0947A01993B3E80060D75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A0947611993B3E80060D75B /* Project object */;
+}
