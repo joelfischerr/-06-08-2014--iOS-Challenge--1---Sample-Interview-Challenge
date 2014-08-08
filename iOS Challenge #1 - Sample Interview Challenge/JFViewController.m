@@ -32,6 +32,9 @@
 
         [self changeColorOfUITextField:self.usernameTextfield toColor:[UIColor grayColor]];
         [self changeColorOfUITextField:self.passwordTextfield toColor:[UIColor grayColor]];
+
+        self.usernameTextFieldisOk = NO;
+        self.passwordTextFieldisOK = YES;
 }
 
 - (void)viewDidLoad {
@@ -61,6 +64,7 @@
                         [storyboard instantiateViewControllerWithIdentifier:@"JFAnotherViewController"];
 
                 [self.navigationController pushViewController:viewController animated:YES];
+
         } else {
 
                 if (self.usernameTextFieldisOk == NO) {
