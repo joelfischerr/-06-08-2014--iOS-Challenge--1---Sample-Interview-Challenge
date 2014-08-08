@@ -12,10 +12,20 @@
 
 - (BOOL)isAlphaNumeric {
 
-        NSCharacterSet *unwantedCharacters = [NSCharacterSet
-                characterSetWithCharactersInString:@"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"];
+        BOOL isMatch = YES;
 
-        return !([self rangeOfCharacterFromSet:unwantedCharacters].location == NSNotFound) ? YES : NO;
+        for (int i = 0; i < [self length]; i++) {
+
+                unichar c = [self characterAtIndex:i];
+
+                if (!isalpha(c) && c != '_') {
+
+                        isMatch = NO;
+                        break;
+                }
+        }
+
+        return isMatch;
 }
 
 - (BOOL)isAtLeastEightCharactersLong {
