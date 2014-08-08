@@ -24,31 +24,29 @@
 @implementation JFViewController
 
 - (void)viewWillAppear:(BOOL)animated {
-        
-        [super viewWillAppear];
+
+        [super viewWillAppear:YES];
 
         self.passwordTextfield.text = @"";
         self.usernameTextfield.text = @"";
-        
+
         [self changeColorOfUITextField:self.usernameTextfield toColor:[UIColor grayColor]];
         [self changeColorOfUITextField:self.passwordTextfield toColor:[UIColor grayColor]];
 }
 
 - (void)viewDidLoad {
-        
+
         [super viewDidLoad];
         // Do any additional setup after loading the view, typically from a nib.
 
         self.passwordTextfield.delegate = self;
         self.usernameTextfield.delegate = self;
-        
 }
 
 - (void)didReceiveMemoryWarning {
-        
+
         [super didReceiveMemoryWarning];
         // Dispose of any resources that can be recreated.
-        
 }
 
 - (IBAction)signinButtonWasPressed:(id)sender {
@@ -98,7 +96,7 @@
 - (BOOL)textField:(UITextField *)textField
         shouldChangeCharactersInRange:(NSRange)range
                     replacementString:(NSString *)string {
-        
+
         [self checkTextField:textField];
 
         return YES;
